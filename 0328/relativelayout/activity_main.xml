@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <!-- 회사 로고 이미지 -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img_company"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="Logo" />
+
+    <!-- 사용자 이름 입력 -->
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="사용자 이름"
+        android:layout_below="@id/logoImageView"
+        android:layout_marginTop="16dp" />
+
+    <!-- 비밀번호 입력 -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:layout_below="@id/usernameEditText"
+        android:layout_marginTop="8dp" />
+
+    <!-- 로그인 버튼 -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그인"
+        android:layout_below="@id/passwordEditText"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#673AB7"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
