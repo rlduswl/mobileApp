@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button android:id="@+id/btnToActivity2" android:text="단위 변환기"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/btnToActivity3" android:text="D-Day 계산기"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <Button android:id="@+id/btnToActivity4" android:text="계산기"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <Button android:id="@+id/btnToActivity5" android:text="메모장"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <Button android:id="@+id/btnToActivity6" android:text="BMI 계산기"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" /> <!-- ✅ 새로 추가된 버튼 -->
+</LinearLayout>
